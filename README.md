@@ -1,1 +1,1 @@
-# bildung
+Willkommen. Hier findest du meine handselektierten Quellen zum Thema Bildung.
