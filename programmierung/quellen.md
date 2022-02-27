@@ -64,6 +64,42 @@ de
 
 [Java Code Geeks](https://www.javacodegeeks.com/)
 
+[jQuery Learning Center](https://learn.jquery.com/) en, Themen:
+jQuery Core,
+Events,
+Effects,
+Ajax,
+Plugins,
+Performance,
+jQuery UI,
+jQuery Mobile
+
+[Rust](https://www.rust-lang.org/learn) en, Themen:
+Buch "The Rust Programming Language",
+Standard Library (std),
+cargo
+rustdoc
+rustc,
+command line
+webassembly
+embedded
+
+[Geeks for Geeks](https://www.geeksforgeeks.org/)
+
+[Geeks for Geeks - Java](https://www.geeksforgeeks.org/java/)
+
+[Geeks for Geeks - jQuery](https://www.geeksforgeeks.org/jquery/)
+
+[Geeks for Geeks - JavaScript](https://www.geeksforgeeks.org/javascript)
+
+[Geeks for Geeks - JavaScript](https://www.geeksforgeeks.org/javascript)
+
+[Geeks for Geeks - NodeJS](https://www.geeksforgeeks.org/nodejs/)
+
+[Geeks for Geeks - ReactJS](https://www.geeksforgeeks.org/reactjs-tutorials/)
+
+[Geeks for Geeks - PHP](https://www.geeksforgeeks.org/php-tutorials/)
+
 # Bücher
 
 - Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition]
@@ -72,6 +108,12 @@ de
 - Refactoring: Improving the Design of Existing Code
 - Pragmatic Programmer, The: From Journeyman to Master
 - Java Übungsbuch: Aufgaben mit vollständigen Lösungen für die Versionen Java 8 bis Java 17 (mitp Professional) : Elisabeth Jung
+- "Microsoft .NET Framework-Programmierung in C#. Expertenwissen zur CLR und dem .NET Framework 2.0", (Jeffrey M. Richter, Microsoft Press)
+
+# Weiter Themen, Auszüge und Inhaltsverzeichnisse
+
+- [Microsoft .NET FrameworkProgrammierung, Inhaltsverzeichnis | PDF](http://www.gbv.de/dms/ilmenau/toc/34632257X.PDF)
+
 
 # Video
 
@@ -80,3 +122,14 @@ de
 # Cheat Sheets
 
 - [microsoft.com](https://docs.microsoft.com/de-de/azure/developer/java/learning-resources/cheat-sheets)
+
+
+# Konzepte
+
+- [Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
+- [Data Scrtuctures](https://www.geeksforgeeks.org/data-structures/)
+- Encapsulation
+- Don't repeat yourself (DRY)
+- YAGNI
+- Anonymous Functions
+- 
