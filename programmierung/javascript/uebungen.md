@@ -1,4 +1,57 @@
-# fetch-API Übung
+# prototype Übungen
+
+## Bequemer Array Zugriff
+
+Erweitere Array um die Methoden `first()` und `last()`.
+
+    Array.prototype.first = function(){ return this[0] }
+    Array.prototype.last = function(){ return this[this.length-1] }
+
+## Hund, Katze, Dino
+
+Hund, Katze, Maus sind Lebewesen. Lebewesen sind vergänglich, also haben sie ein Alter. Haustiere haben sogar einen Namen. Drücke dies in JavaScript aus.
+
+    function Lebewesen(alter){ 
+        this.alter = alter 
+    }
+
+    function Haustier(alter, name){
+        Lebewesen.call(this, alter) 
+        this.name = name
+    }
+    Haustier.prototype = new Lebewesen()
+    Object.assign( Haustier.prototype, {
+        constructor: Haustier
+    })
+
+    function Hund(alter, name){
+        Haustier.call(this, alter, name) 
+    }
+    Hund.prototype = new Haustier()
+    Object.assign( Hund.prototype, {
+        constructor: Hund
+    })
+
+    function Katze(alter, name){
+        Haustier.call(this, alter, name) 
+    }
+    Katze.prototype = new Haustier()
+    Object.assign( Katze.prototype, {
+        constructor: Katze
+    })
+
+    function Maus(alter, name){
+        Haustier.call(this, alter, name) 
+    }
+    Maus.prototype = new Haustier()
+    Object.assign( Maus.prototype, {
+        constructor: Maus
+    })
+
+    console.log([ new Hund(12, "Rex"), new Katze(10, "Miau"), new Maus(1, "Piep") ])
+
+
+# fetch-API Übungen
 
 ## Covid-19 Inzidenz
 
