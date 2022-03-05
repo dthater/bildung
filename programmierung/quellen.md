@@ -102,6 +102,8 @@ embedded
 
 [LearnJ](https://www.learnj.de/) de, Java lernen in einer Browser-IDE
 
+[DsiN Digitalführerschein (DiFü)](https://www.difü.de/) de, Lernangebote und Prüfungsthemen zu Geräte, Internet, Kommunikation, Datenwelt, Gefahrenschutz, Technologiealltag. Inkl. Zertifikat nach Bestehen der Online-Prüfung.
+
 # Bücher
 
 - Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition]
