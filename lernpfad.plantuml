@@ -1,0 +1,248 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Web Coding Lernpfad
+scale 0.8
+
++_ Tools
+++_ Browser
++++_ Aufbau
++++_ Navigation
++++_ Console
++++_ Coding
++++_ Debugging
++++_ Fehlermeldungen
++++_ Breakpoints
++++_ Ansichten (Mobile vs Desktop)
+++_ IDE
++++_ Visual Studio Code (VSC)
++++_ IntelliJ IDEA CE
++++_ Geany
+
++_ Projekte
+++_ Einfach
++++_ Tic-Tac-Toe
++++_ Einkaufsliste
++++_ Quote Machine
++++_ 4 Gewinnt
+++_ Moderat
++++_ Shell Game (Hütchenspiel)
+++_ Anspruchsvoll
++++_ Mensch ärgere dich nicht (Ludo)
++++_ Mühle
++++_ Jump&Run
+
++_ Programmierung
+++_ HTML
++++_ Zweck
++++_ Aufbau
+++++_ Tags, Verschachtelung
+++++_ Attribute, id, class, data
++++_ Basic Tags
+++++_ doctype
+++++_ html, head, body
+++++_ h1... h6, a, i, b, u, p
+++++_ li, ol, ul, div, span
+++++_ table, tbody, tr, td, th
+++++_ hr, img, a
+++++_ meta, link, script
++++_ Custom Tags
++++_ Varianten
+++++_ XML, XAML
+
+++_ Cascading Style Sheets (CSS)
++++_ Zweck
++++_ Aufbau
+++++_ Box Model
++++_ Integration in HTML
++++_ Basis Styles
+++++_ border
+++++_ width, height
+++++_ padding, margin
+++++_ background-color, color
+++++_ font, font-family, font-size
+++++_ float, vertical-align, text-align
+++++_ display, none, flex, block, inline, inline-block
++++_ Media Query
+++++_ min-width, max-width, screen, print
+
+++_ JavaScript
++++_ Zweck
++++_ Aufbau
++++_ Kommentare
++++_ Console, log, table, dump
++++_ Variablen, let, var, const
++++_ Datentypen, Object, String, Number, Boolean, Function, null, undefined, NaN, isNaN(), indexOf
++++_ Ausdrücke & Operatoren, String-Operationen, Anführungsstriche, Template Literals (`)
++++_ Programmfluss
+++++_ Fehlerbehandlung, try-catch-finally, throw
+++++_ Schleifen, Itteration, for/for-in/for-of, do-while, while, break, continue
+++++_ Konditionen, if-then-else
+++++_ switch-case-default
++++_ Programmiertipps
+++++_ Optional chaining (?.)
+++++_ Nullish coalescing operator (??)
+++++_ Spread syntax (...)
++++_ Funktionen Parameter, Scope (global vs local), return
+++++_ Anonyme Funktionen, Pfeilfunktionen (Arrow Functions)
+++++_ alert, prompt, parseInt, parseFloat
++++_ Object, new, JSON, Kontext, this
++++_ Map
++++_ Array, new, Stream, new Array(x) fill, map, forEach, reduce, Arrays-in-Arrays
++++_ Math, floor, ceil, round, random, PI, sin, cos, tan
++++_ Date, new, Datum berechnen, time, toLocalString
++++_ Objects, values, keys, entries
++++_ Prototypen, "Ableitungen"
++++_ Klassen, Ableitungen
++++_ Integration in HTML
++++_ DOM
+++++_ document, getElementById, querySelect, querySelectAll
+++++_ Tag creation, createElement, insertBefore
+++++_ Attribute: setAttribute, getAttribute
+++++_ self/window
+++++_ setTimeout, setInterval, cleanInterval
+++++_ Erignisse, Events, onclick, addEventListener
+++++_ Image
++++_ fetch API, fetch-then-catch
++++_ navigator, User Agent
++++_ location, query
++++_ Cookies
++++_ Storage, local, session
++++_ Canvas, getContext("2d")
+++++_ fillRect, beginPath, moveTo, lineTo
+++++_ stroke, strokeStyle, fillStyle
+++++_ arc
++++_ RegExp, test, match
++++_ Promises, wait, until
++++_ WebComponents
++++_ jQuery
+++++_ Core
+++++_ Selector
+++++_ Manipulation
+++++_ Plugins
+++++_ Events
+++++_ Animation
+++++_ UI
++++++_ Widgets
++++_ Testing
+++++_ Zweck, TDD
+++++_ Jasmine
+
+++_ TypeScript
++++_ Zweck
++++_ Unterschied zu JavaScript
++++_ Setup, Node.js, tsconfig.json
+++++_ packages.json, Aufbau, scripts
+++++_ Dependencies
+++++_ npm
++++_ Typen, string, boolean, number, any, Custom Type, ?
++++_ Parameterübergabe
++++_ class
++++_ Module, import, export, default
++++_ Testing
+++++_ Mocha, Chai
+
+++_ React
++++_ Zweck
++++_ Aufbau
++++_ Setup
++++_ jsx, tsx
++++_ Komponenten
++++_ Style
++++_ State
++++_ Hooks
+
+++_ React Native
++++_ Zweck
++++_ Aufbau
++++_ Setup
+++++_ Android Studio
++++_ Komponenten
+
+++_ Electron
++++_ Zweck
++++_ Aufbau
++++_ Setup
++++_ Komponenten
+
+++_ Python
++++_ Zweck
++++_ Aufbau
++++_ <i>WIP</i>
+
++_ Web Basics
+
+++_ http, REST, POST/GET, http-error codes, curl
+++_ Open Data
+
++_ Terminal
+++_ Bash, echo, ls, Paramater, .sh
+++_ Powershell, cmd, dir, Paramater .ps1
+
++_ Server
+
+++_ Express.js
++++_ Zweck
++++_ Aufbau, Dependencies
++++_ POST/GET/PUT/DELETE
+
+++_ PHP
++++_ <i>WIP</i>
+
+++_ Java
++++_ <i>WIP</i>
+
++_ Datenbank
+
+++_ Zweck
+++_ Aufbau
+++_ table, view, index, primary key, query
+++_ Basic SQL
+++_ sqlite3
++++_ create, types, NUMBER, TEXT, DATE, autoinc
++++_ Integration in express.js/node.js
+++_ PostgreSQL
++++_ Setup, Docker
++++_ Integration in express.js/node.js
+
++_ Docker
+
+++_ Zweck, Abstraktion
+++_ Konzept, Images, Container, Layer
+++_ Setup
+++_ run, rm, ls, all
+++_ Ports
+++_ Volumes
+++_ Dockerfile, add, var, run, port
+++_ Alternativen, rkt
+
++_ Versionskontrolle
+
+++_ Git
++++_ Zweck
++++_ Konzept
++++_ pull, commit, add, revert, reset, log, stash
++++_ .gitignore
+
++_ Prinzipien
+++_ KISS = Keep it simple, stupid!
+++_ DRY = Don't repeat yourself
+++_ YAGNI = You Ain't gonna need it
+
++_ Ressourcen
+++_ Bücher
++++_ Clean Code (by Robert C. Martin)
++++_ The Pragmatic Programmer
+++_ Online
++++_ https://www.freecodecamp.org
++++_ https://selfhtml.org
++++_ https://w3schools.com
++++_ https://openbook.rheinwerk-verlag.de
++++_ https://javatpoint.com
++++_ https://wtfjs.com
++++_ https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
++++_ https://developer.mozilla.org/de/docs/Web/JavaScript/Reference
+
+
+center footer CC-BY-NA 2022 Damian Thater
+@endmindmap
