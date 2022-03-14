@@ -68,12 +68,14 @@ scale 0.8
 
 ++_ JavaScript
 +++_ Zweck
-+++_ Aufbau
++++_ Aufbau, Historie, ECMAScript
 +++_ Kommentare
++++_ strict mode
 +++_ Console, log, table, dump
 +++_ Variablen, let, var, const
-+++_ Datentypen, Object, String, Number, Boolean, Function, null, undefined, NaN, isNaN(), indexOf
++++_ Datentypen, Object, String, Number, Boolean, Function, null, undefined, NaN, isNaN(), Infinity
 +++_ Ausdrücke & Operatoren, String-Operationen, Anführungsstriche, Template Literals (`)
++++_ type coercion, tripple-equals
 +++_ Programmfluss
 ++++_ Fehlerbehandlung, try-catch-finally, throw
 ++++_ Schleifen, Itteration, for/for-in/for-of, do-while, while, break, continue
@@ -242,6 +244,7 @@ scale 0.8
 +++_ https://wtfjs.com
 +++_ https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
 +++_ https://developer.mozilla.org/de/docs/Web/JavaScript/Reference
+
 
 center footer \nCC BY-NC-SA/3.0 - 2022 Damian Thater
 
