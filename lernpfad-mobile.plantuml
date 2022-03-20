@@ -1,0 +1,132 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Mobile Coding Lernpfad
+scale 0.8
+
++ Start
+++ Flutter
++++ Zweck
+++++_ Mobile+Desktop+Web
++++ Setup
+++++_ Installation, 
+++++_ flutter upgrade, doctor, create, pub add
+++++_ Android Studio, bash, bash_profile, PATH, Android SDK, Simulator
+++++_ XCode
++++ Features
+++++_ hot deployment
+++++_ Umfangreiche DevTools
++++ Konzepte
+++++_ OOP, Everything is a Widgets, State
+++++_ Dart
+++++_ Unterschied zu anderen Sprachen
++++ Code
+++++ Konstrukte &\nKonzepte
++++++_ Kommentare ////, ///// und /* */
++++++_ Syntax
++++++_ Semikolon ;
++++++_ Keyswords
+++++++_ abstract	else	import	show \nas	enum	in	static \nassert	export interface super \nasync 	extends	is	switch \nawait 	extension 	late 	sync \nbreak	external 	library 	this \ncase	factory 	mixin 	throw \ncatch	false	new	true \nclass	final	null	try \nconst	finally	on 	typedef \ncontinue	for	operator	var \ncovariant Function part 	void \ndefault	get	required	while \ndeferred hide rethrow	with \ndo	if	return	yield \ndynamic implements set
++++++_ import, package, default Libs, externe Libs, lokale Imports, Pfade
++++++_ Variablen, var, const, final
++++++_ Überwiegend Typenlosigkeit dank "type inference"
++++++_ Benannte Parameter
++++++_ @override
++++++_ Dach ^ bei Abhängigkeiten
++++++_ Statische Methoden
++++++_ Klein- vs Großschreibung
++++++_ Arrow Function =>
++++++_ Objekt Konstruktion
++++++_ Parameter?
++++++_ Generics
++++++_ :
++++++_ ?:
++++++_ Typisierte Listen, <WordPair>[] \n(length, addAll, take, contains, add, remove, map)
++++++_ { Key? key }
++++++_ Wechselwirkung State zu StatefulWidget
++++++_ Unterstich "_" zu Wortbeginn
++++++_ setState
++++++_ Events
++++++_ Array [] (where, forEach, clear)
++++++_ Maps {}
++++++_ Anonyme Funktionen
++++++_ Asynchrone Programmierung (async, async*, await, yield), Future (delayed, then)
++++++_ Streams
++++++_ Null safety
++++++_ Comparison, != null Checks
++++++_ Mixins (vergleichbar mit Java Interfaces)
++++++_ Klassen sind defakto Interfaces (-> implements)
++++++_ Abstraktion
++++++_ Exception-Behandlung (try-on-catch, Exception), throw, rethrow
+++++++_ Error vs Exception
++++++_ Do's und Dont'sind
+++++++_ https://dart.dev/guides/language/effective-dart
+++++ Typen
++++++_ void, null
++++++_ String (contains), int, DateTime (year, now, difference, inDays)
++++++_ getter/setter, get, set
++++++_ Typenkonvertierung "${1}" bzw. "$1", Casting
+++++ Operationen &\nAusdrücke
++++++_ "~/" = Teile durch 2 und nehme floor als int
+++++ Funktionen
++++++_ Parameterübergabe, return
++++++_ Standardfunktionen
+++++++_ print
+++++++_ Programmsteuerung, main, runApp, if-then-else, break, continue, switch-case, assert
+++++++_ Schleifen, Loops: for, for-in, while
+++++++_ createState()
+++++ Übliche Klassen
++++++_ class, extends, Constructor, super, this, mixin, with, implements, abstract
++++++_ Widget
++++++_ StatelessWidget, build()
++++++_ StatefulWidget
++++++_ AppBar (title, actions)
++++++_ BuildContext
++++++_ MaterialApp (title, home, theme)
++++++_ Scaffold (appBar, body)
++++++_ Text
++++++_ Center (child)
++++++_ Container
++++++_ ListView (builder (padding, itemBuilder), children)
++++++_ TextStyle (fontSize)
++++++_ EdgeInsets (all)
++++++_ Divider
++++++_ ListTile (favorite, favorite_border, divideTiles, toList, isNotEmpty)
++++++_ Icon
++++++_ Icons (list)
++++++_ Colors (red, blue, ...)
++++++_ IconButton (icon, onPressed, tooltip)
++++++_ Navigator (of, push)
++++++_ MaterialPageRoute
++++++_ ThemeData (appBarTheme)
++++++_ AppBarTheme (backgroundColor, foregroundColor)
++++++_ Future (delayed)
++++++_ Iterable
++++++_ File (exists, lastModified, create, writeAsString, readAsString)
++++++_ IOException
++++++_ Stream
++++++_ StateError
++++++_ Duration
+++++ Dependencies\n(Abhängigkeiten)
++++++_ cupertino_icons
++++++_ english_words
+++++++_ WordPair (random, asPascalCase)
+++++ Extensions
++++++_ http, fetch, json
+
++++ Resourcen
+++++_ https://dart.dev/guides/language/language-tour
+++++_ https://dart.dev/samples
+++++_ https://dart.dev/guides/language/cheatsheet
+++++_ https://dart.dev/guides/language/effective-dart
+++++_ https://developers.google.com/codelabs/from-java-to-dart#1
+++++_ https://docs.flutter.dev/
+++++_ https://docs.flutter.dev/resources/bootstrap-into-dart
+++++_ https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0
+++++_ https://www.youtube.com/flutterdev
+++++_ https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+++++_ https://www.geeksforgeeks.org/flutter-fetching-json-data-using-http/
+
+center footer \nCC BY-NC-SA/3.0 - 2022 Damian Thater
+
+@endmindmap
