@@ -6,7 +6,7 @@ scale 0.8
 
 + Start
 
-++_ Tools
+++ Tools
 +++_ Browser
 ++++_ Aufbau
 ++++_ Navigation
@@ -21,7 +21,7 @@ scale 0.8
 ++++_ IntelliJ IDEA CE
 ++++_ Geany
 
-++_ Projekte
+++ Projekte
 +++_ Einfach
 ++++_ Tic-Tac-Toe
 ++++_ Einkaufsliste
@@ -34,26 +34,27 @@ scale 0.8
 ++++_ Mühle
 ++++_ Jump&Run
 
-++_ Programmierung
+++ Programmierung
 +++_ HTML
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 +++++_ Tags, Verschachtelung
 +++++_ Attribute, id, class, data
 ++++_ Basic Tags
-+++++_ doctype
++++++_ "<!DOCTYPE html>"
 +++++_ html, head, body
 +++++_ h1... h6, a, i, b, u, p
 +++++_ li, ol, ul, div, span
 +++++_ table, tbody, tr, td, th
 +++++_ hr, img, a
-+++++_ meta, link, script
++++++_ meta, link (href, rel), script (src)
++++++_ Caching
 ++++_ Custom Tags
 ++++_ Varianten
 +++++_ XML, XAML
 
 +++_ Cascading Style Sheets (CSS)
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 +++++_ Box Model
 ++++_ Integration in HTML
@@ -69,7 +70,7 @@ scale 0.8
 +++++_ min-width, max-width, screen, print
 
 +++_ JavaScript
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau, Historie, ECMAScript
 ++++_ Kommentare
 ++++_ strict mode
@@ -133,7 +134,7 @@ scale 0.8
 +++++_ Jasmine
 
 +++_ TypeScript
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Unterschied zu JavaScript
 ++++_ Setup, Node.js, tsconfig.json
 +++++_ packages.json, Aufbau, scripts
@@ -147,7 +148,7 @@ scale 0.8
 +++++_ Mocha, Chai
 
 +++_ React
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 ++++_ Setup
 ++++_ jsx, tsx
@@ -157,33 +158,34 @@ scale 0.8
 ++++_ Hooks
 
 +++_ React Native
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 ++++_ Setup
 +++++_ Android Studio
 ++++_ Komponenten
 
 +++_ Electron
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 ++++_ Setup
 ++++_ Komponenten
 
 +++_ Python
-++++_ Zweck
+++++_ Zweck, Einsatz
 ++++_ Aufbau
 ++++_ <i>WIP</i>
 
-++_ Web Basics
+++ Web Basics
 
 +++_ http, REST, POST/GET, http-error codes, curl
 +++_ Open Data
++++_ Prgrassive Web App (PWA)
 
-++_ Terminal
+++ Terminal
 +++_ Bash, echo, ls, Paramater, .sh
 +++_ Powershell, cmd, dir, Paramater .ps1
 
-++_ Server
+++ Server
 
 +++_ Express.js
 ++++_ Zweck
@@ -196,7 +198,7 @@ scale 0.8
 +++_ Java
 ++++_ <i>WIP</i>
 
-++_ Datenbank
+++ Datenbank
 
 +++_ Zweck
 +++_ Aufbau
@@ -209,7 +211,7 @@ scale 0.8
 ++++_ Setup, Docker
 ++++_ Integration in express.js/node.js
 
-++_ Docker
+++ Docker
 
 +++_ Zweck, Abstraktion
 +++_ Konzept, Images, Container, Layer
@@ -220,7 +222,7 @@ scale 0.8
 +++_ Dockerfile, add, var, run, port
 +++_ Alternativen, rkt
 
-++_ Versionskontrolle
+++ Versionskontrolle
 
 +++_ Git
 ++++_ Zweck
@@ -228,12 +230,12 @@ scale 0.8
 ++++_ pull, commit, add, revert, reset, log, stash
 ++++_ .gitignore
 
-++_ Prinzipien
+++ Prinzipien
 +++_ KISS = Keep it simple, stupid!
 +++_ DRY = Don't repeat yourself
 +++_ YAGNI = You Ain't gonna need it
 
-++_ Ressourcen
+++ Ressourcen
 +++_ Bücher
 ++++_ Clean Code (by Robert C. Martin)
 ++++_ The Pragmatic Programmer
