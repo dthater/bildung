@@ -104,6 +104,12 @@ embedded
 
 [DsiN Digitalführerschein (DiFü)](https://www.difü.de/) de, Lernangebote und Prüfungsthemen zu Geräte, Internet, Kommunikation, Datenwelt, Gefahrenschutz, Technologiealltag. Inkl. Zertifikat nach Bestehen der Online-Prüfung.
 
+[Massig Tutorials](https://github.com/eugenp/tutorials), en, Tutorials u.a. zu Spring Boot
+
+[Spring Boot Tutorials](https://www.springboottutorial.com/)
+
+[Spring Boot Guides](https://spring.io/guides)
+
 # Bücher
 
 - Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition]
@@ -118,15 +124,14 @@ embedded
 
 - [Microsoft .NET FrameworkProgrammierung, Inhaltsverzeichnis | PDF](http://www.gbv.de/dms/ilmenau/toc/34632257X.PDF)
 
-
 # Video
 
 - [theroadmap](https://www.youtube.com/theroadmap)
+- [in28minutes - Cloud Made Easy](https://www.youtube.com/user/rithustutorials)
 
 # Cheat Sheets
 
 - [microsoft.com](https://docs.microsoft.com/de-de/azure/developer/java/learning-resources/cheat-sheets)
-
 
 # Konzepte
 
@@ -136,4 +141,4 @@ embedded
 - Don't repeat yourself (DRY)
 - YAGNI
 - Anonymous Functions
-- 
+-
